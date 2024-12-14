@@ -1,3 +1,7 @@
+{/*
+
+
+
 import connectMongoDB from "../../../libs/mongodb";
 import Message from "../../../models/model";
 import { NextResponse } from "next/server";
@@ -25,3 +29,8 @@ export async function POST(request) {
     return NextResponse.json({ message: "Failed to create message", error: error.message }, { status: 500 });
   }
 }
+
+
+commented out the GET request to fetch all messages with optional filters
+
+**/}
