@@ -1,3 +1,5 @@
+{/*
+
 import { Sidebar } from "../../compo";
 
 
@@ -9,3 +11,5 @@ export default function Inbox() {
         </div>
     );
     }
+
+*/}
